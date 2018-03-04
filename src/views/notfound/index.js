@@ -1,12 +1,12 @@
 import React from 'react';
 import withLayout from 'hoc/withLayout';
 
-const Account = () => {
+const NotFound = () => {
   return (
     <section>
-      MY ACCOUNT, HACK MEH! LOLZ
+      YOU BROKE MY WEBSITE...LOLZ
     </section>
   )
 }
 
-export default withLayout(Account);
+export default withLayout(NotFound);

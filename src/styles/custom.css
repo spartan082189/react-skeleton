@@ -1,5 +1,10 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
+/*
+  ##### Custom Styles #####
+  */
+  body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+  }
+  

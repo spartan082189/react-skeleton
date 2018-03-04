@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router';
 import { 
   Welcome,
-  Account
+  Account,
+  NotFound
 } from 'views';
 
 class Routes extends Component {
@@ -11,6 +12,7 @@ class Routes extends Component {
       <Switch>
         <Route exact path="/" component={Welcome}/>
         <Route exact path="/account" component={Account}/>
+        <Route component={NotFound}/>
       </Switch>
     )
   }
