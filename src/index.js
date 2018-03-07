@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
+import { render } from 'react-snapshot';
 //import { Router } from 'react-router-dom';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
@@ -22,7 +23,7 @@ const store = createStore(rootReducer, initialState, compose(
 ));
 //const history = syncHistoryWithStore(browserHistory, store)
 
-ReactDOM.render(
+render(
     <Provider store={store}>
       <ConnectedRouter history={history}>
         <Routes />
